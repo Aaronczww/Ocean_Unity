@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 95ac568b09c2b3c4aac9162e90f81e33
+timeCreated: 1516371017
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - waveform: {fileID: 2800000, guid: e41f4726e37522348bee867507137bdc, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
