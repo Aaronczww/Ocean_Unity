@@ -175,9 +175,9 @@ Material:
     m_Colors:
     - _A: {r: 1, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DeepColor: {r: 0, g: 0.3343407, b: 0.4433962, a: 1}
+    - _DeepColor: {r: 0.01568627, g: 0.20920363, b: 0.30980393, a: 1}
     - _Direction: {r: 0, g: -60, b: -45, a: -120.9}
-    - _DirectionalScatteringColor: {r: 0, g: 0.83137256, b: 0.7354174, a: 1}
+    - _DirectionalScatteringColor: {r: 0, g: 0.6830323, b: 0.83137256, a: 1}
     - _Dx: {r: 1.5, g: 1, b: 0.5, a: -0.7}
     - _Dz: {r: 0.5, g: 0.7, b: 0.7, a: 0.6}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -186,5 +186,5 @@ Material:
     - _LightColor: {r: 0.20784314, g: 1, b: 0.9947009, a: 1}
     - _Q: {r: 0, g: 0, b: 0, a: 0}
     - _S: {r: 10, g: 200, b: 400, a: 211}
-    - _ShallowColor: {r: 0.4292453, g: 0.9386792, b: 1, a: 1}
+    - _ShallowColor: {r: 0.5298594, g: 0.7384752, b: 0.764151, a: 1}
     - _ShallowMaskOffset: {r: -0.07, g: 0.12, b: 0, a: 0}

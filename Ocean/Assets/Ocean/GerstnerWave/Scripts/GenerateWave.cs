@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 public class GenerateWave : MonoBehaviour
 {
-	public struct waveSampler
+	private struct waveSampler
 	{
 		
 		public float x;
