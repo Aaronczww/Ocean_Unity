@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -47,7 +47,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Height:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -63,6 +71,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -75,6 +87,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Skybox:
+        m_Texture: {fileID: 8900000, guid: 1cde0e200e792cb4491204276a656490, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _White:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -84,13 +104,17 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AirRefractiveIndex: 1
     - _Amp: 1
     - _Amplitude: 1
     - _BumpScale: 1
     - _Choppiness: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _DirectTranslucencyPow: 3
     - _DstBlend: 0
+    - _EmissionStrength: 0.117
+    - _FresnelPower: 5
     - _GlossMapScale: 1
     - _Glossiness: 64
     - _GlossyReflections: 1
@@ -98,21 +122,37 @@ Material:
     - _LightWrap: 10
     - _Metallic: 0
     - _Mode: 0
+    - _NormalSpeed: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RandomSeed1: 1.5122
     - _RandomSeed2: 6.1152
+    - _ReflectionDistortionStrength: 1
+    - _RefractionStrength: 1
     - _Resolution: 128
+    - _Shininess: 400
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _SunAnglePow: 1
     - _UVSec: 0
+    - _UseSkybox: 0
+    - _WaterClarity: 12
+    - _WaterClarityAttenuationFactor: 1
+    - _WaterDepthChangeFactor: 1
+    - _WaterRefractiveIndex: 1.333
     - _ZWrite: 1
     - _length: 128
+    - _waveMaxHeight: 40
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0.27420786, g: 0.5249745, b: 0.735849, a: 1}
+    - _DirectionalScatteringColor: {r: 0.5246529, g: 0.8490566, b: 0.6736096, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HeightMapTransform: {r: 640, g: 640, b: 0.3, a: 0.3}
     - _RimColor: {r: 0, g: 0, b: 1, a: 1}
+    - _ShallowColor: {r: 0.16905478, g: 0.25267884, b: 0.27358484, a: 1}
+    - _ShallowMaskOffset: {r: -0.1, g: 0.2, b: 0, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _Tint: {r: 0.2908482, g: 0.37719375, b: 0.43400002, a: 1}
     - _Wind: {r: 1, g: 0, b: 0, a: 0}
