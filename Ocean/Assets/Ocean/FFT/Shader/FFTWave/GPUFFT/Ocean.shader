@@ -277,7 +277,7 @@
 				float4 refractiveColor = CalculateRefractiveColor(i.worldPos, i.grabPos, normal,viewDir,lightDir,landHeight,waveHeight,shadowFactor);
 
                 // float3 rim = _RimColor * pow(max(0,1 - saturate(dot(normal,viewDir))),1.5);
- 				float4 white = float4( pow(i.color,2).xyz,1);
+ 				float4 white = float4( pow(i.color,2).xyz,4);
                  float4 col = float4(lerp(refractiveColor ,reflectedColor ,F),1);
 
                 return refractiveColor + white;

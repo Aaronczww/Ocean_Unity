@@ -146,12 +146,12 @@ Material:
     - _waveMaxHeight: 40
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DeepColor: {r: 0.27420786, g: 0.5249745, b: 0.735849, a: 1}
-    - _DirectionalScatteringColor: {r: 0.5246529, g: 0.8490566, b: 0.6736096, a: 1}
+    - _DeepColor: {r: 0.054209977, g: 0.2061978, b: 0.38999996, a: 1}
+    - _DirectionalScatteringColor: {r: 0.361746, g: 0.58933, b: 0.783, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HeightMapTransform: {r: 640, g: 640, b: 0.3, a: 0.3}
     - _RimColor: {r: 0, g: 0, b: 1, a: 1}
-    - _ShallowColor: {r: 0.16905478, g: 0.25267884, b: 0.27358484, a: 1}
+    - _ShallowColor: {r: 0.16905475, g: 0.2526788, b: 0.2735848, a: 1}
     - _ShallowMaskOffset: {r: -0.1, g: 0.2, b: 0, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _Tint: {r: 0.2908482, g: 0.37719375, b: 0.43400002, a: 1}
